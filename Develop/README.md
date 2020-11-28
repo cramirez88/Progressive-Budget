@@ -7,11 +7,7 @@
 ## DESCRIPTION
 A budget tracking web application that utilizes PWA (Progressive Web Application) frameworks to successfully store and track financial transactions during offline and online scenarios.
 
-## SCREENSHOTS
-### Screenshot of the landing page, showing the ledger of previous transactions
-![Screenshot of Landing Page](./public/img/1-LandingPage.png)
-### Screenshot of the graph, documenting the trend/progression of these previous transactions
-![Screenshot of Graph](./public/img/2-Graph.png)
+
 
 ## TABLE OF CONTENTS
 * [Installation](#installation)
@@ -66,18 +62,6 @@ To test offline functionality – and ensure that data collected, stored in Inde
 License: MIT License<br>
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
-## CONTRIBUTING
 
 
-## RETROSPECTIVE
-This was an informative homework assignment, that afforded many opportunites for learning and growth. While the majority of the initial code was provided – allowing for consistent online functionality – I was required to create and write code for the following files to implement the PWA offline functionality:
-- `public/db.js`
-- `public/manifest.webmanifest`
-- `public/service-worker.js`
 
-Beyond that, the following files also required additional modifications:
-- `public/index.html`
-- `public/index.js`
-- `server.js`
-
-With everything in place, I "connected the dots," ensuring that the budget tracker worked accurately during offline and online scenarios.
