@@ -44,23 +44,15 @@ A budget tracking web application that utilizes PWA (Progressive Web Application
     - During offline status, the transactions are stored with IndexedDB, a "low-level API for client-side storage of significant amounts of structured data"
     - Once online status is returned, any offline transactions are posted to the database and cleared from IndexedDB, and normal online functionality resumes
 
-## TESTS
-To test offline functionality – and ensure that data collected, stored in IndexedDB, and then subsequently posted when online functionality returns – please take the following steps:
-- Take the application offline (e.g. utilize Service Workers)
-![Taking the application offline](./public/img/3-ServiceOffline.png)
-- Post an offline transaction (e.g. add or subtract funds)
-![Making an offline transaction](./public/img/4-OfflineTransaction.png)
-![Posting an offline transaction](./public/img/5-OfflinePosted.png)
-- Confirm that the data has been stored in IndexedDB
-![Storing the data in IndexedDB](./public/img/6-IndexedDB.png)
-- Take the application back online and post an online transaction (e.g. add or subtract funds)
-![Taking the application online and posting a transaction](./public/img/7-OnlineTransaction.png)
-- Confirm that the offline AND online transactions have been posted in your MongoDB
-![Confirmation of MongoDB data](./public/img/8-Database.png)
+
 
 ## LICENSE
 License: MIT License<br>
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+
+https://agile-reaches-33212.herokuapp.com/
+
+
 
 
 
